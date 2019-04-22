@@ -1,0 +1,220 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- help login inr -->
+  <div class="container-fluid">
+    <section class="container">
+      <section>
+        <div class="row">
+          <div class="col-md-6 p-2">
+            <!-- <img src="images/logo.jpg" class="logo-main" alt="SS-Logo" decoding="async"> -->
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <img src class="logo-main" alt="SS-Logo" decoding="async">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="position: absolute; top: 25px;"></span>
+              </button>
+            </nav>
+
+
+          </div>
+          <div class="col-md-6 d-md-flex justify-content-end  p-4 d-none">
+            <ul class="list-inline d-none d-md-inline">
+              <li class="list-inline-item text-color-blue"><a><span>Help</span></a></li>
+              <li class="list-inline-item"><button type="button" class="inr-button font-weight-bold d-none d-md-inline">
+                  <img class="ind-logo" src="images/ind-logo.png" alt="india-logo" decoding="async">
+                  <span>&#8377;INR</span></button>
+              </li>
+              <li class="list-inline-item text-color-blue"><a class="login-a font-weight-bold "><span>Log in</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- icons -->
+      <section>
+        <div class="row">
+          <div class="col-md-6 ">
+            <ul class="list-inline">
+              <li class="list-inline-item text-color-blue icons-tabs"><a><i className="fas fa-fighter-jet"></i> <span
+                    className="d-none d-md-inline">Flights</span></a>
+              </li>
+              <li className="list-inline-item text-color-blue icons-tabs"><a><i className="fas fa-bed"></i> <span
+                    className="d-none d-md-inline">Hotels</span></a></li>
+              <li className="list-inline-item text-color-blue icons-tabs"><a><i className="fas fa-car"></i> <span
+                    className="d-none d-md-inline">Car Hire</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+  <!-- < bg image> -->
+  <section class=" bg-image container-fluid ">
+
+    <!-- <img src="images/bg-main.jpg" alt="bg-image" decoding="async"> -->
+    <div class="container p-2 ">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+        <label class="custom-control-label text-white" for="customRadioInline1">Return</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+        <label class="custom-control-label text-white" for="customRadioInline2">One way</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+        <label class="custom-control-label text-white" for="customRadioInline3">Multi-city</label>
+      </div>
+      <div class="custom-control-inline d-flex justify-content-end ">
+        <a href="#" class="text-white d-none d-md-inline">Map</a>
+
+      </div>
+    </div>
+    
+    <!-- <div class="container">
+      <div class="row no-gutters">
+        <div class="form-group col-md-3">
+          <label class="input-label text-white">From</label>
+          <input type="text" class="input-box From" placeholder="Bangalore">
+        </div>
+        <div class="form-group col-md-3">
+          <label class="input-label text-white">to</label>
+          <input type="text" class="input-box" placeholder="Bangalore">
+        </div>
+        <div class="form-group col-md-3">
+          <div class="row">
+            <div class="col-md-6">
+              <label class="input-label text-white">Depart</label>
+              <input type="date" class="input-box" placeholder="Bangalore">
+            </div>
+            <div class="col-md-6">
+              <label class="input-label text-white">Return</label>
+              <input type="date" class="input-box" placeholder="Bangalore">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-3">
+          <label class="input-label text-white">Cabin Class & Travellers</label>
+          <input type="text" class="input-box Cabin" placeholder="1 Adult,Economy">
+
+      </div>
+      </div>
+    </div> -->
+
+
+
+      <!-- from ,to items -->
+    <div Class="container">
+      <div class="row no-gutters">
+        <div class="form-group  col-md-3 ">
+          <label for="inputEmail1 " class="text-white ">From</label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="Bangalore">
+          <i style=" position: absolute;top: 42px;right: 11px;" class="fas fa-exchange-alt"></i>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputPassword4" class="text-white">To</label>
+          <input type="text" class="form-control" id="inputPassword4" placeholder="Bangalore">
+        </div>
+
+        <!-- Departure - Arrival times -->
+
+
+
+        <section class="col-md-3">
+          <div class="row no-gutters">
+            <section class="col col-md-6">
+              <div class="form-group">
+                <label for="inputEmail4 " class="text-white">Depart</label>
+                <input type="date" class="form-control" id="inputPassword4" placeholder="Email">
+              </div>
+            </section>
+            <section class="col col-md-6">
+              <div class="form-group">
+                <label for="inputEmail4" class="text-white">Return</label>
+                <input type="date" class="form-control" id="inputPassword4" placeholder="Email">
+              </div>
+            </section>
+          </div>
+        </section>
+
+
+        <div class="form-group col-md-3">
+          <label for="inputPassword4" class="text-white">Cabin Class & Travellers</label>
+          <input type="text" class="form-control" id="inputPassword4" placeholder="1 Adult,Economy">
+        </div>
+
+      </div>
+
+
+    </div>
+    <!-- buttons -->
+    <div class="container">
+      <section class="row">
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label text-white" for="defaultCheck1">
+              Add nearby airports
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label text-white" for="defaultCheck1">
+              Direct flights only
+            </label>
+          </div>
+        </div>
+      </section>
+      <div class="d-flex justify-content-end">
+        <a href="#"> <button type="button" class="button-sf">Search Flights <i
+              class="fas fa-arrow-right"></i></button></a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- <div class="container ">
+<div class=" flyss border rounded-top rounded-right rounded-left rounded-bottom  mt-2 pt-2 pb-2 pl-2">
+<span> Fly Stay Save</span>
+<span class="border bg-danger text-white rounded-top rounded-right rounded-left rounded-bottom pl-2 pr-2"> <i class="fas fa-fighter-jet"></i>+ <i class="fas fa-bed"></i></span>
+<span>Unlock special hotel discounts when you book a flight through us. Woohoo!</span> -->
+
+  </div>
+  </div>
+  
+    <!--  -->
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="images/logo.jpg" class="logo-main" alt="SS-Logo" decoding="async">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+  </nav> -->
+
+
+    <!--  -->
+
+
+</body>
+
+</html>

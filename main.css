@@ -1,0 +1,79 @@
+.logo-main{
+    height: 64px;
+    width: 200px;
+}
+.ind-logo{
+    height: 18px;
+    width: 14px;
+}
+.text-color-blue{
+    color: #00b2d6;
+}
+.inr-button{
+    color: #00b2d6;
+    padding:  4px 19px 7px 19px;
+    width: 99px;
+    border-radius: 22px 20px 22px 20px;
+    border: 2px solid #e6e4eb;
+    background-color: white;
+}
+.login-a{
+    color: #00b2d6;
+    padding:  4px 19px 7px 19px;
+    border-radius: 22px 20px 22px 20px;
+    border: 2px solid #e6e4eb;
+    background-color: white;
+}
+
+.icons-tabs{
+    color: white;
+    padding:  4px 15px 7px 15px;
+    border-radius: 10px 10px 0px 0px;
+    /* border: 2px solid #e6e4eb; */
+    background-color: 00b2d6;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.bg-image{
+    background-image: url('images/bg-main.jpg');
+    background-size: cover;
+    min-height: 320px ;
+    background-position: 50% 60%;
+    /* width: 100%;
+    height: 100%; */
+
+}
+.text-white{
+    color:white;
+}
+.button-sf{
+    border-radius: 25px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: #00d775;
+    color: white;
+    border-style: none;
+}
+.FSS{
+    height:30px 
+}
+.input-label{
+    position: absolute;
+    bottom: 35px;
+
+}
+.input-box{
+    width:278;
+    height:45;
+}
+.From {
+border-radius: 5px 0px 0px 5px;
+} 
+
+.Cabin{
+    border-radius: 0px 5px 5px 0px;
+}
